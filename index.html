@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>
+        <link rel="stylesheet" type="text/css" href="resources/css/fontawesome/css/all.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/fontawesome/css/brands.css">
+        <style>
+
+        body{
+        background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url("resources/images/mirror.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+        }
+
+        .contact-form{
+        margin-top:30px;
+        color:#fff;
+        transition: 4s all ease-in-out;
+        }
+
+        .contact-form h1 {
+        position:relative;
+        top: 18px;
+        left: 10px;
+        } 
+
+        .contact-form h2 {
+            font-size: 20px;
+            color: #fff;
+        }
+
+        form{
+            margin-top: 10px;
+            transition: all 4s ease-in-out;
+        }
+
+        .form-control{
+            width: 300px;
+            background: transparent;
+            border:thin;
+            outline: none;
+            border-bottom: 1px solid gray;
+            color: white;
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+
+        input{
+            height: 40px;
+        }
+
+        form .submit{
+        background: red;
+        border-radius: 10px 10px 10px 10px;
+        border-color: transparent;
+        letter-spacing: 2px;
+        height: 30px;
+        font-size: 15px;
+        width: 300px;
+        margin-top:25px;
+        }
+
+        form .submit:hover{
+            background-color: rgb(224, 49, 49);
+            cursor: pointer;
+        }
+
+        div.icons{
+                margin-top: 70px;
+            }
+
+        div a{
+                color:#fff;
+                text-decoration: none;
+                margin: 10px;
+            }
+        div.icons a:first-child{
+                color: rgb(74, 74, 243);
+            }
+         div.icons a:nth-child(2){
+                color: white;
+            }
+            div.icons 
+            a:nth-child(3){
+                color: rgb(148, 124, 148);
+            }
+        div.icons a:nth-child(4){
+                color:dodgerblue;
+            }
+
+        p{
+            color:white;
+        }
+        </style>
+    </head>
+    <body>
+       <div class="contact-form">
+       <h1>Laura Nicks Website</h1>
+       </div>
+       <br>
+       <br>
+       <div class="contact-form">
+       <h2>CONTACT US</h2>
+       <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Full Name" class="form-control" required>
+        <br>
+        <br>
+        <input type="text" name="Email" placeholder="Your Email Address" class="form-control">
+        <br>
+        <br>
+        <textarea name="message" placeholder="Your Message" class="form-control" rows="5" reequired></textarea>
+        <br> 
+        <input type="submit" class="form-control submit" value="SEND MESSAGE">
+       </form>
+       </div>
+       <div class="icons">
+            <a href=""><i class="fab fa-3x fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-3x fa-github"></i></a>
+            <a href=""><i class="fab fa-3x fa-instagram"></i></a>
+            <a href=""><i class="fab fa-3x fa-twitter-square"></i></a>
+        </div>
+       <div>
+            <p style="text-align:center;">&#169; Laura Nicks Website. All Rights Reserved | Designed by Annysah</p>
+       </div>
+    </body>
+</html>
